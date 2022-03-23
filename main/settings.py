@@ -169,11 +169,7 @@ REST_FRAMEWORK = {
 
 CORS_ALLOW_ALL_ORIGIN = True
 
-CORS_ALLOWED_ORIGINS = [
 
-    "http://localhost:8080",
-    "http://127.0.0.1:9000",
-]
 CORS_ALLOW_METHODS = [
     "DELETE",
     "GET",
